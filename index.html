@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assista: Your Personal Voice Assistant</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome CDN for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
@@ -16,6 +18,22 @@
             <button id="start-recognition">Start Listening</button>
             <p id="command-output">Waiting for your command...</p>
             <p id="response"></p>
+
+            <!-- Adding a list of voice commands with icons -->
+            <div id="command-list">
+                <h2>Available Commands:</h2>
+                <ul>
+                    <li><i class="fas fa-play"></i> "Play" - Play a song on YouTube</li>
+                    <li><i class="fas fa-camera"></i> "Capture" - Captures an image from the webcam</li>
+                    <li><i class="fas fa-clock"></i> "Time" - Tells the current time</li>
+                    <li><i class="fas fa-calendar"></i> "Date" - Tells today's date</li>
+                    <li><i class="fas fa-laugh"></i> "Joke" - Tells a joke</li>
+                    <li><i class="fas fa-search"></i> "Search" - Search in Google</li>
+                    <li><i class="fas fa-sun"></i> "Weather" - Shows current weather</li>
+                    <li><i class="fas fa-info-circle"></i> "Fun fact" - Fetches a random fun fact</li>
+                    <li><i class="fas fa-newspaper"></i> "News" - Shows the latest news headlines</li>
+                </ul>
+            </div>
         </main>
     </div>
 
